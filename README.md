@@ -219,4 +219,8 @@ Courses:
 
 ## Scale & Blance
 
+Blogs:
+
+- [Building a Large-scale Distributed Storage System Based on Raft](https://www.cncf.io/blog/2019/11/04/building-a-large-scale-distributed-storage-system-based-on-raft/)
+
 ## Benchmark & Testing
