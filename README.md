@@ -265,10 +265,12 @@ Courses:
 
 ## Consensus
 
+- University of Cambridge [Distributed consensus revised](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-935.pdf), a great paper about Consenssus especially Paxos and Paxos-Related algorithms, by Heidi Howard
+
 ## Scale & Blance
 
 Blogs:
 
-- [Building a Large-scale Distributed Storage System Based on Raft](https://www.cncf.io/blog/2019/11/04/building-a-large-scale-distributed-storage-system-based-on-raft/)
+- [Building a Large-scale Distributed Storage System Based on Raft](https://www.cncf.io/blog/2019/11/04/building-a-large-scale-distributed-storage-system-based-on-raft/), by Ed Huang
 
 ## Benchmark & Testing
