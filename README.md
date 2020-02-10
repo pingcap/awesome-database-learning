@@ -61,6 +61,7 @@ Please submit a pull request if there is any material that you think should be i
 
 - Stanford [Database Systems: The Complete Book](http://infolab.stanford.edu/~ullman/dscb.html)
 - [Designing Data-Intensive Applications](http://shop.oreilly.com/product/0636920032175.do), [中文翻译](https://github.com/Vonng/ddia)
+- [Database Internals](https://www.oreilly.com/library/view/database-internals/9781492040330/)
 
 ## SQL & Relation Algebra
 
