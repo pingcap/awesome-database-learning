@@ -41,7 +41,7 @@ Please submit a pull request if there is any material that you think should be i
 * [Data Partitiioning](#data-partitiioning)
 * [Replication & Consistency](#replication--consistency)
 * [Consensus](#consensus)
-* [Scale & Blance](#scale--blance)
+* [Scale & Balance](#scale--balance)
 * [Benchmark & Testing](#benchmark--testing)
 
 <!-- vim-markdown-toc -->
@@ -166,7 +166,7 @@ Papers:
 
 Blogs:
 
-- [Overhead of a Generalized Query Execution Engine](https://github.com/pivotal/blog/blob/master/content/post/codegen-gpdb-qx.md), from [The Pivotal Engineering Journal](https://github.com/pivotal/blog), thannks to the Pivotal Engineering team
+- [Overhead of a Generalized Query Execution Engine](https://github.com/pivotal/blog/blob/master/content/post/codegen-gpdb-qx.md), from [The Pivotal Engineering Journal](https://github.com/pivotal/blog), thanks to the Pivotal Engineering team
 
 Papers:
 
@@ -259,7 +259,7 @@ Courses:
 
 ## Serializing & RPC
 
-## Data Partitiioning
+## Data Partitioning
 
 ## Replication & Consistency
 
@@ -267,7 +267,7 @@ Courses:
 
 - University of Cambridge [Distributed consensus revised](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-935.pdf), a great paper about Consenssus especially Paxos and Paxos-Related algorithms, by Heidi Howard
 
-## Scale & Blance
+## Scale & Balance
 
 Blogs:
 
