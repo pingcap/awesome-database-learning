@@ -38,7 +38,7 @@ Please submit a pull request if there is any material that you think should be i
     * [B-Tree](#b-tree)
     * [LSM-Tree](#lsm-tree)
 * [Serializing & RPC](#serializing--rpc)
-* [Data Partitiioning](#data-partitiioning)
+* [Data Partitioning](#data-partitioning)
 * [Replication & Consistency](#replication--consistency)
 * [Consensus](#consensus)
 * [Scale & Balance](#scale--balance)
