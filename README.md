@@ -18,6 +18,7 @@ Please submit a pull request if there is any material that you think should be i
     * [Planner Models](#planner-models)
     * [Cost Model](#cost-model)
     * [Statistics](#statistics)
+    * [Subquery Optimization](#subquery-optimization)
 * [Query Execution](#query-execution)
     * [Execution Framework](#execution-framework)
     * [Vectorization vs Compilization](#vectorization-vs-compilization)
@@ -108,6 +109,10 @@ Papers:
 Books:
 - [Synopses for Massive Data: Samples, Histograms, Wavelets, Sketches](https://db.cs.berkeley.edu/cs286/papers/synopses-fntdb2012.pdf)
 
+### Subquery Optimization
+
+- 2015, [Unnesting Arbitrary Queries](http://www.btw-2015.de/res/proceedings/Hauptband/Wiss/Neumann-Unnesting_Arbitrary_Querie.pdf), BTW
+
 ## Query Execution
 
 ### Execution Framework
@@ -137,12 +142,7 @@ Papers:
 Papers:
 
 - 2013, [Multi-Core, Main-Memory Joins: Sort vs. Hash Revisited](http://www.vldb.org/pvldb/vol7/p85-balkesen.pdf), VLDB
-- 2015, [Unnesting Arbitrary Queries](http://www.btw-2015.de/res/proceedings/Hauptband/Wiss/Neumann-Unnesting_Arbitrary_Querie.pdf), BTW
 - 2017, [Looking Ahead Makes Query Plans Robust](http://www.vldb.org/pvldb/vol10/p889-zhu.pdf), VLDB
-
-## DDL
-
-- 2013, [Online, Asynchronous Schema Change in F1](https://research.google.com/pubs/archive/41376.pdf), VLDB
 
 ### Hash Table
 
@@ -151,6 +151,9 @@ Blogs:
 - [Fibonacci Hashing: The Optimization that the World Forgot (or: a Better Alternative to Integer Modulo)](https://probablydance.com/2018/06/16/fibonacci-hashing-the-optimization-that-the-world-forgot-or-a-better-alternative-to-integer-modulo/), thanks to [Malte Skarupke](https://probablydance.com/)
 - [All hash table sizes you will ever need](https://databasearchitects.blogspot.com/2020/01/all-hash-table-sizes-you-will-ever-need.html), thanks to [Database Architects - Thomas Neumann](https://databasearchitects.blogspot.com/)
 
+## DDL
+
+- 2013, [Online, Asynchronous Schema Change in F1](https://research.google.com/pubs/archive/41376.pdf), VLDB
 
 ## Transaction
 
@@ -203,6 +206,16 @@ Papers:
 
 ### Buffer Management
 
+Courses:
+
+- CMU [Database Systems (15-445/645)](https://15445.courses.cs.cmu.edu/fall2019/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
+    - [Buffer Pools](https://15445.courses.cs.cmu.edu/fall2019/schedule.html#sep-11-2019)
+
+
+Papers:
+
+- 1987, [The 5 Minute Rule for Trading Memory for Disc Accesses and the 5 Byte Rule for Trading Memory for CPU Time](https://www.hpl.hp.com/techreports/tandem/TR-86.1.pdf), SIGMOD
+- 2008, [The Five Minute Rule 20 Years Later and How Flash Memory Changes the Rules](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.3846&rep=rep1&type=pdf), ACM Queue
 - 2018, [Managing Non-Volatile Memory in Database Systems](https://db.in.tum.de/people/sites/vanrenen/papers/HyMem.pdf?lang=de), SIGMOD
 - 2018, [LeanStore: In-Memory Data Management Beyond Main Memory](https://db.in.tum.de/~leis/papers/leanstore.pdf), ICDE
 - 2020, [Umbra: A Disk-Based System with In-Memory Performance](https://db.in.tum.de/~radke/papers/hugejoins.pdf), CIDR
