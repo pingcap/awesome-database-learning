@@ -57,8 +57,7 @@ Please submit a pull request if there is any material that you think should be i
 ### Books
 
 - Stanford [Database Systems: The Complete Book](http://infolab.stanford.edu/~ullman/dscb.html)
-
-## SQL & Relation Algebra
+- [Designing Data-Intensive Application](http://shop.oreilly.com/product/0636920032175.do), [DDIA-CN](https://github.com/Vonng/ddia)
 
 Courses:
 
