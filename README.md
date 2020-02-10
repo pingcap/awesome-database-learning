@@ -13,9 +13,15 @@ Please submit a pull request if there is any material that you think should be i
 
 <!-- vim-markdown-toc GFM -->
 
+* [Recommended Courses and Books](#recommended-courses-and-books)
+    * [Courses](#courses)
+    * [Books](#books)
 * [SQL & Relation Algebra](#sql--relation-algebra)
 * [Query Optimizer](#query-optimizer)
     * [Planner Models](#planner-models)
+    * [Subquery Optimization](#subquery-optimization)
+    * [Join Order Optimization](#join-order-optimization)
+    * [Functional Dependency & Physical Properties](#functional-dependency--physical-properties)
     * [Cost Model](#cost-model)
     * [Statistics](#statistics)
 * [Query Execution](#query-execution)
@@ -39,6 +45,16 @@ Please submit a pull request if there is any material that you think should be i
 * [Benchmark & Testing](#benchmark--testing)
 
 <!-- vim-markdown-toc -->
+
+## Recommended Courses and Books
+
+### Courses
+
+- CMU [Database Systems (15-445/645)](https://15445.courses.cs.cmu.edu/fall2019/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
+- CMU [Advanced Database Systems (15-721)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
+- UC Berkeley [Introduction to Database Systems](https://cs186berkeley.net/calendar/)
+
+### Books
 
 ## SQL & Relation Algebra
 
@@ -85,6 +101,38 @@ Papers:
 - 2014, [Orca: A Modular Query Optimizer Architecture for Big Data](http://15721.courses.cs.cmu.edu/spring2016/papers/p337-soliman.pdf), SIGMOD
 - 2016, [Parallelizing Query Optimization on Shared-Nothing Architectures](http://www.vldb.org/pvldb/vol9/p660-trummer.pdf), VLDB
 - 2016, [The MemSQL Query Optimizer: A modern optimizer for real-time analytics in a distributed database](http://www.vldb.org/pvldb/vol9/p1401-chen.pdf), VLDB
+
+### Subquery Optimization
+
+Blogs:
+
+- [SQL 子查询的优化](https://zhuanlan.zhihu.com/p/60380557), thanks to [Eric Fu](https://www.zhihu.com/people/fuyufjh)
+- [Calcite 子查询处理 - I (RemoveSubQuery)](https://zhuanlan.zhihu.com/p/62338250), thanks to [一只无情的小猫咪](https://www.zhihu.com/people/loop_recur)
+- [Calcite 子查询处理 - II (Decorrelate)](https://zhuanlan.zhihu.com/p/66227661), thanks to [一只无情的小猫咪](https://www.zhihu.com/people/loop_recur)
+
+Papers:
+
+- 2001, [Orthogonal Optimization of Subqueries and Aggregation](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.563.8492&rep=rep1&type=pdf), SIGMOD
+- 2009, [Enhanced subquery optimizations in Oracle](https://www.researchgate.net/publication/220538535_Enhanced_Subquery_Optimizations_in_Oracle), VLDB
+
+### Join Order Optimization
+
+Papers:
+
+- 2006, [Analysis of Two Existing and One New Dynamic Programming Algorithm for the Generation of Optimal Bushy Join Trees without Cross Products](http://www.vldb.org/conf/2006/p930-moerkotte.pdf), VLDB
+- 2015, [ How Good Are Query Optimizers, Really?](http://www.vldb.org/pvldb/vol9/p204-leis.pdf), VLDB
+
+### Functional Dependency & Physical Properties
+
+Thesis:
+
+- 2000, [Exploiting Functional Dependence in Query Optimization](https://cs.uwaterloo.ca/research/tr/2000/11/CS-2000-11.thesis.pdf)
+
+Papers:
+
+- 1996, [Fundamental Techniques for Order Optimization](https://cs.uwaterloo.ca/~gweddell/cs798/p57-simmen.pdf), SIGMOD
+- 2004, [An Efficient Framework for Order Optimization](https://www.researchgate.net/publication/4084912_An_efficient_framework_for_order_optimization), ICDE
+- 2010, [Incorporating Partitioning and Parallel Plans into the SCOPE Optimizer](http://www.cs.albany.edu/~jhh/courses/readings/zhou10.pdf), ICDE
 
 ### Cost Model
 
