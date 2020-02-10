@@ -13,9 +13,15 @@ Please submit a pull request if there is any material that you think should be i
 
 <!-- vim-markdown-toc GFM -->
 
+* [Recommended Courses and Books](#recommended-courses-and-books)
+    * [Courses](#courses)
+    * [Books](#books)
 * [SQL & Relation Algebra](#sql--relation-algebra)
 * [Query Optimizer](#query-optimizer)
     * [Planner Models](#planner-models)
+    * [Subquery Optimization](#subquery-optimization)
+    * [Join Order Optimization](#join-order-optimization)
+    * [Functional Dependency & Physical Properties](#functional-dependency--physical-properties)
     * [Cost Model](#cost-model)
     * [Statistics](#statistics)
     * [Subquery Optimization](#subquery-optimization)
@@ -35,13 +41,26 @@ Please submit a pull request if there is any material that you think should be i
     * [B-Tree](#b-tree)
     * [LSM-Tree](#lsm-tree)
 * [Serializing & RPC](#serializing--rpc)
-* [Data Partitiioning](#data-partitiioning)
+* [Data Partitioning](#data-partitioning)
 * [Replication & Consistency](#replication--consistency)
 * [Consensus](#consensus)
-* [Scale & Blance](#scale--blance)
+* [Scale & Balance](#scale--balance)
 * [Benchmark & Testing](#benchmark--testing)
 
 <!-- vim-markdown-toc -->
+
+## Recommended Courses and Books
+
+### Courses
+
+- CMU [Database Systems (15-445/645)](https://15445.courses.cs.cmu.edu/fall2019/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
+- CMU [Advanced Database Systems (15-721)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
+- UC Berkeley [Introduction to Database Systems](https://cs186berkeley.net/calendar/)
+
+### Books
+
+- Stanford [Database Systems: The Complete Book](http://infolab.stanford.edu/~ullman/dscb.html)
+- [Designing Data-Intensive Applications](http://shop.oreilly.com/product/0636920032175.do), [中文翻译](https://github.com/Vonng/ddia)
 
 ## SQL & Relation Algebra
 
@@ -89,6 +108,38 @@ Papers:
 - 2016, [Parallelizing Query Optimization on Shared-Nothing Architectures](http://www.vldb.org/pvldb/vol9/p660-trummer.pdf), VLDB
 - 2016, [The MemSQL Query Optimizer: A modern optimizer for real-time analytics in a distributed database](http://www.vldb.org/pvldb/vol9/p1401-chen.pdf), VLDB
 
+### Subquery Optimization
+
+Blogs:
+
+- [SQL 子查询的优化](https://zhuanlan.zhihu.com/p/60380557), thanks to [Eric Fu](https://www.zhihu.com/people/fuyufjh)
+- [Calcite 子查询处理 - I (RemoveSubQuery)](https://zhuanlan.zhihu.com/p/62338250), thanks to [一只无情的小猫咪](https://www.zhihu.com/people/loop_recur)
+- [Calcite 子查询处理 - II (Decorrelate)](https://zhuanlan.zhihu.com/p/66227661), thanks to [一只无情的小猫咪](https://www.zhihu.com/people/loop_recur)
+
+Papers:
+
+- 2001, [Orthogonal Optimization of Subqueries and Aggregation](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.563.8492&rep=rep1&type=pdf), SIGMOD
+- 2009, [Enhanced subquery optimizations in Oracle](https://www.researchgate.net/publication/220538535_Enhanced_Subquery_Optimizations_in_Oracle), VLDB
+
+### Join Order Optimization
+
+Papers:
+
+- 2006, [Analysis of Two Existing and One New Dynamic Programming Algorithm for the Generation of Optimal Bushy Join Trees without Cross Products](http://www.vldb.org/conf/2006/p930-moerkotte.pdf), VLDB
+- 2015, [How Good Are Query Optimizers, Really?](http://www.vldb.org/pvldb/vol9/p204-leis.pdf), VLDB
+
+### Functional Dependency & Physical Properties
+
+Thesis:
+
+- 2000, [Exploiting Functional Dependence in Query Optimization](https://cs.uwaterloo.ca/research/tr/2000/11/CS-2000-11.thesis.pdf)
+
+Papers:
+
+- 1996, [Fundamental Techniques for Order Optimization](https://cs.uwaterloo.ca/~gweddell/cs798/p57-simmen.pdf), SIGMOD
+- 2004, [An Efficient Framework for Order Optimization](https://www.researchgate.net/publication/4084912_An_efficient_framework_for_order_optimization), ICDE
+- 2010, [Incorporating Partitioning and Parallel Plans into the SCOPE Optimizer](http://www.cs.albany.edu/~jhh/courses/readings/zhou10.pdf), ICDE
+
 ### Cost Model
 
 Papers:
@@ -126,7 +177,7 @@ Papers:
 
 Blogs:
 
-- [Overhead of a Generalized Query Execution Engine](https://github.com/pivotal/blog/blob/master/content/post/codegen-gpdb-qx.md), from [The Pivotal Engineering Journal](https://github.com/pivotal/blog), thannks to the Pivotal Engineering team
+- [Overhead of a Generalized Query Execution Engine](https://github.com/pivotal/blog/blob/master/content/post/codegen-gpdb-qx.md), from [The Pivotal Engineering Journal](https://github.com/pivotal/blog), thanks to the Pivotal Engineering team
 
 Papers:
 
@@ -244,12 +295,18 @@ Courses:
 
 ## Serializing & RPC
 
-## Data Partitiioning
+## Data Partitioning
 
 ## Replication & Consistency
 
 ## Consensus
 
-## Scale & Blance
+- University of Cambridge [Distributed consensus revised](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-935.pdf), a great paper about Consenssus especially Paxos and Paxos-Related algorithms, by Heidi Howard
+
+## Scale & Balance
+
+Blogs:
+
+- [Building a Large-scale Distributed Storage System Based on Raft](https://www.cncf.io/blog/2019/11/04/building-a-large-scale-distributed-storage-system-based-on-raft/), by Ed Huang
 
 ## Benchmark & Testing
