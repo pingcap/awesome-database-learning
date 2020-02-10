@@ -56,6 +56,8 @@ Please submit a pull request if there is any material that you think should be i
 
 ### Books
 
+- Stanford [Database Systems: The Complete Book](http://infolab.stanford.edu/~ullman/dscb.html)
+
 ## SQL & Relation Algebra
 
 Courses:
