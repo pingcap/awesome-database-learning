@@ -24,7 +24,6 @@ Please submit a pull request if there is any material that you think should be i
     * [Functional Dependency & Physical Properties](#functional-dependency--physical-properties)
     * [Cost Model](#cost-model)
     * [Statistics](#statistics)
-    * [Subquery Optimization](#subquery-optimization)
 * [Query Execution](#query-execution)
     * [Execution Framework](#execution-framework)
     * [Vectorization vs Compilization](#vectorization-vs-compilization)
@@ -259,7 +258,6 @@ Courses:
 
 - CMU [Database Systems (15-445/645)](https://15445.courses.cs.cmu.edu/fall2019/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
     - [Buffer Pools](https://15445.courses.cs.cmu.edu/fall2019/schedule.html#sep-11-2019)
-
 
 Papers:
 
