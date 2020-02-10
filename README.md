@@ -120,7 +120,7 @@ Papers:
 Papers:
 
 - 2006, [Analysis of Two Existing and One New Dynamic Programming Algorithm for the Generation of Optimal Bushy Join Trees without Cross Products](http://www.vldb.org/conf/2006/p930-moerkotte.pdf), VLDB
-- 2015, [ How Good Are Query Optimizers, Really?](http://www.vldb.org/pvldb/vol9/p204-leis.pdf), VLDB
+- 2015, [How Good Are Query Optimizers, Really?](http://www.vldb.org/pvldb/vol9/p204-leis.pdf), VLDB
 
 ### Functional Dependency & Physical Properties
 
