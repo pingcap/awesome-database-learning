@@ -120,6 +120,7 @@ Papers:
 
 - 2001, [Orthogonal Optimization of Subqueries and Aggregation](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.563.8492&rep=rep1&type=pdf), SIGMOD
 - 2009, [Enhanced subquery optimizations in Oracle](https://www.researchgate.net/publication/220538535_Enhanced_Subquery_Optimizations_in_Oracle), VLDB
+- 2015, [Unnesting Arbitrary Queries](http://www.btw-2015.de/res/proceedings/Hauptband/Wiss/Neumann-Unnesting_Arbitrary_Querie.pdf), BTW
 
 ### Join Order Optimization
 
@@ -159,10 +160,6 @@ Papers:
 
 Books:
 - [Synopses for Massive Data: Samples, Histograms, Wavelets, Sketches](https://db.cs.berkeley.edu/cs286/papers/synopses-fntdb2012.pdf)
-
-### Subquery Optimization
-
-- 2015, [Unnesting Arbitrary Queries](http://www.btw-2015.de/res/proceedings/Hauptband/Wiss/Neumann-Unnesting_Arbitrary_Querie.pdf), BTW
 
 ## Query Execution
 
@@ -269,7 +266,7 @@ Papers:
 - 2008, [The Five Minute Rule 20 Years Later and How Flash Memory Changes the Rules](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.3846&rep=rep1&type=pdf), ACM Queue
 - 2018, [Managing Non-Volatile Memory in Database Systems](https://db.in.tum.de/people/sites/vanrenen/papers/HyMem.pdf?lang=de), SIGMOD
 - 2018, [LeanStore: In-Memory Data Management Beyond Main Memory](https://db.in.tum.de/~leis/papers/leanstore.pdf), ICDE
-- 2020, [Umbra: A Disk-Based System with In-Memory Performance](https://db.in.tum.de/~radke/papers/hugejoins.pdf), CIDR
+- 2020, [Umbra: A Disk-Based System with In-Memory Performance](http://cidrdb.org/cidr2020/papers/p29-neumann-cidr20.pdf), CIDR
 
 ### Disk IO
 
