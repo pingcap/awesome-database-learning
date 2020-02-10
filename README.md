@@ -59,6 +59,8 @@ Please submit a pull request if there is any material that you think should be i
 - Stanford [Database Systems: The Complete Book](http://infolab.stanford.edu/~ullman/dscb.html)
 - [Designing Data-Intensive Application](http://shop.oreilly.com/product/0636920032175.do), [中文翻译](https://github.com/Vonng/ddia)
 
+## SQL & Relation Algebra
+
 Courses:
 
 - CMU [Database Systems (15-445/645)](https://15445.courses.cs.cmu.edu/fall2019/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
