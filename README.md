@@ -28,12 +28,14 @@ Please submit a pull request if there is any material that you think should be i
     * [Execution Framework](#execution-framework)
     * [Vectorization vs Compilization](#vectorization-vs-compilization)
     * [Join](#join)
+    * [Hash Table](#hash-table)
 * [DDL](#ddl)
 * [Transaction](#transaction)
     * [Isolation Levels](#isolation-levels)
     * [Concurrency Control](#concurrency-control)
 * [Network](#network)
 * [Storage](#storage)
+    * [Buffer Management](#buffer-management)
     * [Disk IO](#disk-io)
     * [B-Tree](#b-tree)
     * [LSM-Tree](#lsm-tree)
@@ -118,6 +120,7 @@ Papers:
 
 - 2001, [Orthogonal Optimization of Subqueries and Aggregation](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.563.8492&rep=rep1&type=pdf), SIGMOD
 - 2009, [Enhanced subquery optimizations in Oracle](https://www.researchgate.net/publication/220538535_Enhanced_Subquery_Optimizations_in_Oracle), VLDB
+- 2015, [Unnesting Arbitrary Queries](http://www.btw-2015.de/res/proceedings/Hauptband/Wiss/Neumann-Unnesting_Arbitrary_Querie.pdf), BTW
 
 ### Join Order Optimization
 
@@ -125,6 +128,7 @@ Papers:
 
 - 2006, [Analysis of Two Existing and One New Dynamic Programming Algorithm for the Generation of Optimal Bushy Join Trees without Cross Products](http://www.vldb.org/conf/2006/p930-moerkotte.pdf), VLDB
 - 2015, [How Good Are Query Optimizers, Really?](http://www.vldb.org/pvldb/vol9/p204-leis.pdf), VLDB
+- 2018, [Adaptive Optimization of Very Large Join Queries](https://db.in.tum.de/~radke/papers/hugejoins.pdf), SIGMOD
 
 ### Functional Dependency & Physical Properties
 
@@ -150,6 +154,7 @@ Papers:
 
 Papers:
 
+- 2003, [The History of Histograms](http://www.madgik.di.uoa.gr/sites/default/files/vldb03_pp19-30.pdf), VLDB
 - 2005, [An Improved Data Stream Summary: The Count-Min Sketch and its Applications](http://dimacs.rutgers.edu/~graham/pubs/papers/cm-full.pdf), Journal of Algorithms
 - 2007, [New Estimation Algorithms for Streaming Data: Count-min Can Do More](http://webdocs.cs.ualberta.ca/~drafiei/papers/cmm.pdf)
 - 2017, [Adaptive Statistics in Oracle 12c](http://www.vldb.org/pvldb/vol10/p1813-zait.pdf), VLDB
@@ -178,6 +183,7 @@ Papers:
 - 2011, [Efficiently Compiling Efficient Query Plans for Modern Hardware](https://www.vldb.org/pvldb/vol4/p539-neumann.pdf), VLDB
 - 2017, [Relaxed Operator Fusion for In-Memory Databases: Making Compilation, Vectorization, and Prefetching Work Together At Last](http://www.vldb.org/pvldb/vol11/p1-menon.pdf), VLDB
 - 2018, [Everything You Always Wanted to Know About Compiled and Vectorized Queries But Were Afraid to Ask](http://www.vldb.org/pvldb/vol11/p2209-kersten.pdf), VLDB
+- 2018, [Adaptive Execution of Compiled Queries](https://db.in.tum.de/~leis/papers/adaptiveexecution.pdf), ICDE
 
 ### Join
 
@@ -185,6 +191,13 @@ Papers:
 
 - 2013, [Multi-Core, Main-Memory Joins: Sort vs. Hash Revisited](http://www.vldb.org/pvldb/vol7/p85-balkesen.pdf), VLDB
 - 2017, [Looking Ahead Makes Query Plans Robust](http://www.vldb.org/pvldb/vol10/p889-zhu.pdf), VLDB
+
+### Hash Table
+
+Blogs:
+
+- [Fibonacci Hashing: The Optimization that the World Forgot (or: a Better Alternative to Integer Modulo)](https://probablydance.com/2018/06/16/fibonacci-hashing-the-optimization-that-the-world-forgot-or-a-better-alternative-to-integer-modulo/), thanks to [Malte Skarupke](https://probablydance.com/)
+- [All hash table sizes you will ever need](https://databasearchitects.blogspot.com/2020/01/all-hash-table-sizes-you-will-ever-need.html), thanks to [Database Architects - Thomas Neumann](https://databasearchitects.blogspot.com/)
 
 ## DDL
 
@@ -238,6 +251,21 @@ Papers:
 - 2017, [Don't Hold My Data Hostage: A Case for Client Protocol Redesign](http://www.vldb.org/pvldb/vol10/p1022-muehleisen.pdf), VLDB
 
 ## Storage
+
+### Buffer Management
+
+Courses:
+
+- CMU [Database Systems (15-445/645)](https://15445.courses.cs.cmu.edu/fall2019/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
+    - [Buffer Pools](https://15445.courses.cs.cmu.edu/fall2019/schedule.html#sep-11-2019)
+
+Papers:
+
+- 1987, [The 5 Minute Rule for Trading Memory for Disc Accesses and the 5 Byte Rule for Trading Memory for CPU Time](https://www.hpl.hp.com/techreports/tandem/TR-86.1.pdf), SIGMOD
+- 2008, [The Five Minute Rule 20 Years Later and How Flash Memory Changes the Rules](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.3846&rep=rep1&type=pdf), ACM Queue
+- 2018, [Managing Non-Volatile Memory in Database Systems](https://db.in.tum.de/people/sites/vanrenen/papers/HyMem.pdf?lang=de), SIGMOD
+- 2018, [LeanStore: In-Memory Data Management Beyond Main Memory](https://db.in.tum.de/~leis/papers/leanstore.pdf), ICDE
+- 2020, [Umbra: A Disk-Based System with In-Memory Performance](http://cidrdb.org/cidr2020/papers/p29-neumann-cidr20.pdf), CIDR
 
 ### Disk IO
 
