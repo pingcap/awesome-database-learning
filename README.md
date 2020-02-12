@@ -13,9 +13,10 @@ Please submit a pull request if there is any material that you think should be i
 
 <!-- vim-markdown-toc GFM -->
 
-* [Recommended Courses and Books](#recommended-courses-and-books)
+* [Recommended Courses, Books and Talks](#recommended-courses-books-and-talks)
     * [Courses](#courses)
     * [Books](#books)
+    * [Talks](#talks)
 * [SQL & Relation Algebra](#sql--relation-algebra)
 * [Query Optimizer](#query-optimizer)
     * [Planner Models](#planner-models)
@@ -45,10 +46,11 @@ Please submit a pull request if there is any material that you think should be i
 * [Consensus](#consensus)
 * [Scale & Balance](#scale--balance)
 * [Benchmark & Testing](#benchmark--testing)
+* [Build A Database from Scratch](#build-a-database-from-scratch)
 
 <!-- vim-markdown-toc -->
 
-## Recommended Courses and Books
+## Recommended Courses, Books and Talks
 
 ### Courses
 
@@ -63,6 +65,11 @@ Please submit a pull request if there is any material that you think should be i
 - [Designing Data-Intensive Applications](http://shop.oreilly.com/product/0636920032175.do), [中文翻译](https://github.com/Vonng/ddia)
 - [Database Internals](https://www.oreilly.com/library/view/database-internals/9781492040330/)
 - [Foundations of Databases](http://webdam.inria.fr/Alice/)
+
+### Talks
+
+- [Data Structures and Algorithms for Big Databases](https://people.csail.mit.edu/bradley/BenderKuszmaul-tutorial-xldb12.pdf)
+- [A Journey From A Quick HackTo A High-Reliability Database Engine](https://www.sqlite.org/talks/wroclaw-20090310.pdf)
 
 ## SQL & Relation Algebra
 
@@ -301,6 +308,7 @@ Courses:
 ## Consensus
 
 - University of Cambridge [Distributed consensus revised](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-935.pdf), a great paper about Consenssus especially Paxos and Paxos-Related algorithms, by Heidi Howard
+- [Ark: A Real-World Consensus Implementation By Zardosht Kashef](https://arxiv.org/pdf/1407.4765.pdf)
 
 ## Scale & Balance
 
@@ -314,4 +322,3 @@ Blogs:
 - [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
 - [builddatabase](https://github.com/ngaut/builddatabase)
 - [Writing a sqlite clone from scratch in C](https://github.com/cstack/db_tutorial)
-
