@@ -320,5 +320,3 @@ Blogs:
 
 ## Build A Database from Scratch
 - [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
-- [builddatabase](https://github.com/ngaut/builddatabase)
-- [Writing a sqlite clone from scratch in C](https://github.com/cstack/db_tutorial)
