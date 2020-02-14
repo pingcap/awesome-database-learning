@@ -44,6 +44,7 @@ Please submit a pull request if there is any material that you think should be i
 * [Data Partitioning](#data-partitioning)
 * [Replication & Consistency](#replication--consistency)
 * [Consensus](#consensus)
+* [Technical Report](#technical-report)
 * [Scale & Balance](#scale--balance)
 * [Benchmark & Testing](#benchmark--testing)
 * [Build A Database from Scratch](#build-a-database-from-scratch)
@@ -308,7 +309,10 @@ Courses:
 ## Consensus
 
 - University of Cambridge [Distributed consensus revised](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-935.pdf), a great paper about Consenssus especially Paxos and Paxos-Related algorithms, by Heidi Howard
-- [Ark: A Real-World Consensus Implementation By Zardosht Kashef](https://arxiv.org/pdf/1407.4765.pdf)
+
+## Technical Report
+
+- 2014, [Ark: A Real-World Consensus Implementation](https://arxiv.org/pdf/1407.4765.pdf), CoRR
 
 ## Scale & Balance
 
