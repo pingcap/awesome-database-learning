@@ -93,7 +93,6 @@ Blogs:
     - [数据库内核杂谈（七）：数据库优化器（上）](https://www.infoq.cn/article/GhhQlV10HWLFQjTTxRtA)
     - [数据库内核杂谈（八）：数据库优化器（下）](https://www.infoq.cn/article/JCJyMrGDQHl8osMFQ7ZR)
 - [SQL优化器原理 - 查询优化器综述](https://yq.aliyun.com/articles/610128), thanks to [勿烦](https://yq.aliyun.com/users/kyni3qcv656rk?spm=a2c4e.11153940.0.0.6adc1a8etfb0vx)
-- [阿里巴巴数据库内核月报](http://mysql.taobao.org/monthly/)
 
 ### Planner Models
 
