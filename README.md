@@ -65,6 +65,7 @@ Please submit a pull request if there is any material that you think should be i
 - [Designing Data-Intensive Applications](http://shop.oreilly.com/product/0636920032175.do), [中文翻译](https://github.com/Vonng/ddia)
 - [Database Internals](https://www.oreilly.com/library/view/database-internals/9781492040330/)
 - [Foundations of Databases](http://webdam.inria.fr/Alice/)
+- [Readings in Database Systems, 5th Edition](http://www.redbook.io/)
 
 ### Talks
 
@@ -295,6 +296,10 @@ Courses:
 
 - CMU [Advanced Database Systems (15-721)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
     - [OLTP Indexes (B+Tree Data Structures)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html#feb-03-2020)
+
+Papers:
+
+- 1979, [The Ubiquitous B-Tree](http://carlosproal.com/ir/papers/p121-comer.pdf)
 
 ### LSM-Tree
 
