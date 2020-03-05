@@ -66,6 +66,7 @@ Please submit a pull request if there is any material that you think should be i
 - [Database Internals](https://www.oreilly.com/library/view/database-internals/9781492040330/)
 - [Foundations of Databases](http://webdam.inria.fr/Alice/)
 - [Readings in Database Systems, 5th Edition](http://www.redbook.io/)
+- [Inside SQLite](https://book.douban.com/subject/2314119/)
 
 ### Talks
 
