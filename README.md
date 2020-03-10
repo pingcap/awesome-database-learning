@@ -57,7 +57,7 @@ Please submit a pull request if there is any material that you think should be i
 - CMU [Advanced Database Systems (15-721)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
 - UC Berkeley [Introduction to Database Systems](https://cs186berkeley.net/calendar/)
 - Stanford [Database System Implementation](https://web.stanford.edu/class/cs346/2015/)
-- [Let's Build a Simple Database](https://dzone.com/users/3098371/parthmodi.html), thanks to [cstack](https://github.com/cstack)
+- [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/), thanks to [cstack](https://github.com/cstack)
 
 ### Books
 
