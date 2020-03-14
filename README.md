@@ -68,6 +68,7 @@ Please submit a pull request if there is any material that you think should be i
 - [Readings in Database Systems, 5th Edition](http://www.redbook.io/)
 - [Database Design and Implementation: Second Edition (Data-Centric Systems and Applications)](https://www.amazon.com/dp/3030338355)
 - [Principles of Distributed Database Systems, 4th ed](https://www.amazon.com/dp/3030262529)
+- [Inside SQLite](https://books.google.com/books/about/Inside_SQLite.html?id=QoxUx8GOjKMC)
 
 ### Talks
 
