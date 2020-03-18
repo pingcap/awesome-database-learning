@@ -13,9 +13,10 @@ Please submit a pull request if there is any material that you think should be i
 
 <!-- vim-markdown-toc GFM -->
 
-* [Recommended Courses and Books](#recommended-courses-and-books)
+* [Recommended Courses, Books and Talks](#recommended-courses-books-and-talks)
     * [Courses](#courses)
     * [Books](#books)
+    * [Talks](#talks)
 * [SQL & Relation Algebra](#sql--relation-algebra)
 * [Query Optimizer](#query-optimizer)
     * [Planner Models](#planner-models)
@@ -48,19 +49,31 @@ Please submit a pull request if there is any material that you think should be i
 
 <!-- vim-markdown-toc -->
 
-## Recommended Courses and Books
+## Recommended Courses, Books and Talks
 
 ### Courses
 
 - CMU [Database Systems (15-445/645)](https://15445.courses.cs.cmu.edu/fall2019/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
 - CMU [Advanced Database Systems (15-721)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
 - UC Berkeley [Introduction to Database Systems](https://cs186berkeley.net/calendar/)
+- Stanford [Database System Implementation](https://web.stanford.edu/class/cs346/2015/)
+- [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/), thanks to [cstack](https://github.com/cstack)
 
 ### Books
 
 - Stanford [Database Systems: The Complete Book](http://infolab.stanford.edu/~ullman/dscb.html)
 - [Designing Data-Intensive Applications](http://shop.oreilly.com/product/0636920032175.do), [中文翻译](https://github.com/Vonng/ddia)
 - [Database Internals](https://www.oreilly.com/library/view/database-internals/9781492040330/)
+- [Foundations of Databases](http://webdam.inria.fr/Alice/)
+- [Readings in Database Systems, 5th Edition](http://www.redbook.io/)
+- [Database Design and Implementation: Second Edition (Data-Centric Systems and Applications)](https://www.amazon.com/dp/3030338355)
+- [Principles of Distributed Database Systems, 4th ed](https://www.amazon.com/dp/3030262529)
+- [Inside SQLite](https://books.google.com/books/about/Inside_SQLite.html?id=QoxUx8GOjKMC)
+
+### Talks
+
+- [Data Structures and Algorithms for Big Databases](https://people.csail.mit.edu/bradley/BenderKuszmaul-tutorial-xldb12.pdf)
+- [A Journey From A Quick HackTo A High-Reliability Database Engine](https://www.sqlite.org/talks/wroclaw-20090310.pdf)
 
 ## SQL & Relation Algebra
 
@@ -287,17 +300,52 @@ Courses:
 - CMU [Advanced Database Systems (15-721)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
     - [OLTP Indexes (B+Tree Data Structures)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html#feb-03-2020)
 
+Papers:
+
+- 1979, [The Ubiquitous B-Tree](http://carlosproal.com/ir/papers/p121-comer.pdf)
+
 ### LSM-Tree
+
+Papers:
+
+- 1996, [The Log-Structured Merge-Tree (LSM-Tree)](https://www.cs.umb.edu/~poneil/lsmtree.pdf),
+- 2017, [WiscKey: Separating Keys from Values in SSD-conscious Storage](https://www.usenix.org/system/files/conference/fast16/fast16-papers-lu.pdf), TOS
 
 ## Serializing & RPC
 
+- [Protocol Buffers Developer Guide](https://developers.google.com/protocol-buffers/docs/overview)
+- [gRPC Documntation](https://www.grpc.io/docs/quickstart/go/)
+
 ## Data Partitioning
+
+Blogs:
+
+- [TiDB Internal (I) - Data Storage](https://pingcap.com/blog/2017-07-11-tidbinternal1/)
+- [Partitioning Behavior of DynamoDB](https://dzone.com/articles/partitioning-behavior-of-dynamodb), thanks to [Parth Modi](https://dzone.com/users/3098371/parthmodi.html)
+
+Papers:
+
+- 2007, [Dynamo: Amazon’s Highly Available Key-value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf), SOSP
 
 ## Replication & Consistency
 
+Blogs:
+
+- [Tick or Tock? Keeping Time and Order in Distributed Databases](https://dzone.com/articles/tick-or-tock-keeping-time-and-order-in-distributed-1), thanks to [Liu Tang](https://dzone.com/users/3186309/siddontang.html)
+
+Papers:
+
+- 2012, [Consistency Tradeoffs in Modern Distributed Database System Design](http://www.cs.umd.edu/~abadi/papers/abadi-pacelc.pdf)
+
 ## Consensus
 
+Technical report:
+
 - University of Cambridge [Distributed consensus revised](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-935.pdf), a great paper about Consenssus especially Paxos and Paxos-Related algorithms, by Heidi Howard
+
+Papers:
+
+- 2014, [Ark: A Real-World Consensus Implementation](https://arxiv.org/pdf/1407.4765.pdf), CoRR
 
 ## Scale & Balance
 
@@ -306,3 +354,9 @@ Blogs:
 - [Building a Large-scale Distributed Storage System Based on Raft](https://www.cncf.io/blog/2019/11/04/building-a-large-scale-distributed-storage-system-based-on-raft/), by Ed Huang
 
 ## Benchmark & Testing
+
+Blogs:
+
+- [Use go-ycsb to benchmark different databases (1)](https://medium.com/@siddontang/use-go-ycsb-to-benchmark-different-databases-8850f6edb3a7), thanks to [siddontang](https://medium.com/@siddontang)
+- [Chaos Tools and Techniques for Testing the TiDB Distributed NewSQL Database](https://dzone.com/articles/chaos-tools-and-techniques-for-testing-the-tidb-di-1), thanks to [Liu Tang](https://dzone.com/users/3186309/siddontang.html)
+- [Creating Custom Sysbench Scripts](https://www.percona.com/blog/2019/04/25/creating-custom-sysbench-scripts/), thanks to [Matthew Boehm](https://www.percona.com/blog/author/matthew-boehm/)
