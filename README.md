@@ -207,6 +207,11 @@ Papers:
 
 ### Hash Table
 
+Courses:
+
+- CMU [Database Systems (15-445/645)](https://15445.courses.cs.cmu.edu/fall2019/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
+    - [Hash Tables](https://15445.courses.cs.cmu.edu/fall2019/schedule.html#sep-16-2019)
+
 Blogs:
 
 - [Fibonacci Hashing: The Optimization that the World Forgot (or: a Better Alternative to Integer Modulo)](https://probablydance.com/2018/06/16/fibonacci-hashing-the-optimization-that-the-world-forgot-or-a-better-alternative-to-integer-modulo/), thanks to [Malte Skarupke](https://probablydance.com/)
