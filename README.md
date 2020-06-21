@@ -176,7 +176,7 @@ Papers:
 - 1993, [Optimal Histograms for Limiting Worst-Case Error Propagation in the Size of Join Results](https://dl.acm.org/doi/pdf/10.1145/169725.169708), ACM Trans. on Database Systems
 - 1993, [Universality of Serial Histograms](https://pdfs.semanticscholar.org/deeb/d2fa377a41de49e5556ea948191a741faa1e.pdf), VLDB
 - 1995, [Balancing Histogram Optimality and Practicality for Query Result Size Estimation](https://dl.acm.org/doi/pdf/10.1145/223784.223841), SIGMOD
-- 1996, [Improved Histograms for Selectivity Estimation of Range Predicates](Improved Histograms for Selectivity Estimation of Range Predicates), SIGMOD
+- 1996, [Improved Histograms for Selectivity Estimation of Range Predicates](https://dl.acm.org/doi/pdf/10.1145/233269.233342), SIGMOD
 - 1997, [SEEKing the truth about ad hoc join costs](https://dl.acm.org/doi/pdf/10.1007/s007780050043?download=true), VLDB
 - 2000, [Towards Estimation Error Guarantees for Distinct Values](https://dl.acm.org/doi/pdf/10.1145/335168.335230), SIGMOD/PODS
 - 2001, [Distinct Sampling for Highly-Accurate Answers to Distinct Values Queries and Event Reports](http://vldb.org/conf/2001/P541.pdf), VLDB
