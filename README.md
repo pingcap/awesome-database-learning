@@ -14,33 +14,33 @@ Please submit a pull request if there is any material that you think should be i
 <!-- vim-markdown-toc GFM -->
 
 * [Recommended Courses, Books and Talks](#recommended-courses-books-and-talks)
-  * [Courses](#courses)
-  * [Books](#books)
-  * [Talks](#talks)
-  * [Blogs](#blogs)
+    * [Courses](#courses)
+    * [Books](#books)
+    * [Talks](#talks)
+    * [Blogs](#blogs)
 * [SQL & Relation Algebra](#sql--relation-algebra)
 * [Query Optimizer](#query-optimizer)
-  * [Planner Models](#planner-models)
-  * [Subquery Optimization](#subquery-optimization)
-  * [Join Order Optimization](#join-order-optimization)
-  * [Functional Dependency & Physical Properties](#functional-dependency--physical-properties)
-  * [Cost Model](#cost-model)
-  * [Statistics](#statistics)
+    * [Planner Models](#planner-models)
+    * [Subquery Optimization](#subquery-optimization)
+    * [Join Order Optimization](#join-order-optimization)
+    * [Functional Dependency & Physical Properties](#functional-dependency--physical-properties)
+    * [Cost Model](#cost-model)
+    * [Statistics](#statistics)
 * [Query Execution](#query-execution)
-  * [Execution Framework](#execution-framework)
-  * [Vectorization vs Compilization](#vectorization-vs-compilization)
-  * [Join](#join)
-  * [Hash Table](#hash-table)
+    * [Execution Framework](#execution-framework)
+    * [Vectorization vs Compilization](#vectorization-vs-compilization)
+    * [Join](#join)
+    * [Hash Table](#hash-table)
 * [DDL](#ddl)
 * [Transaction](#transaction)
-  * [Isolation Levels](#isolation-levels)
-  * [Concurrency Control](#concurrency-control)
+    * [Isolation Levels](#isolation-levels)
+    * [Concurrency Control](#concurrency-control)
 * [Network](#network)
 * [Storage](#storage)
-  * [Buffer Management](#buffer-management)
-  * [Disk IO](#disk-io)
-  * [B-Tree](#b-tree)
-  * [LSM-Tree](#lsm-tree)
+    * [Buffer Management](#buffer-management)
+    * [Disk IO](#disk-io)
+    * [B-Tree](#b-tree)
+    * [LSM-Tree](#lsm-tree)
 * [Serializing & RPC](#serializing--rpc)
 * [Data Partitioning](#data-partitioning)
 * [Replication & Consistency](#replication--consistency)
@@ -172,10 +172,22 @@ Papers:
 
 Papers:
 
+- 1984, [Accurate Estimation of the Number of Tuples Satisfying a Condition](https://dl.acm.org/doi/pdf/10.1145/971697.602294), SIGMOD
+- 1993, [Optimal Histograms for Limiting Worst-Case Error Propagation in the Size of Join Results](https://dl.acm.org/doi/pdf/10.1145/169725.169708), ACM Trans. on Database Systems
+- 1993, [Universality of Serial Histograms](https://pdfs.semanticscholar.org/deeb/d2fa377a41de49e5556ea948191a741faa1e.pdf), VLDB
+- 1995, [Balancing Histogram Optimality and Practicality for Query Result Size Estimation](https://dl.acm.org/doi/pdf/10.1145/223784.223841), SIGMOD
+- 1996, [Improved Histograms for Selectivity Estimation of Range Predicates](Improved Histograms for Selectivity Estimation of Range Predicates), SIGMOD
+- 1997, [SEEKing the truth about ad hoc join costs](https://dl.acm.org/doi/pdf/10.1007/s007780050043?download=true), VLDB
+- 2000, [Towards Estimation Error Guarantees for Distinct Values](https://dl.acm.org/doi/pdf/10.1145/335168.335230), SIGMOD/PODS
+- 2001, [Distinct Sampling for Highly-Accurate Answers to Distinct Values Queries and Event Reports](http://vldb.org/conf/2001/P541.pdf), VLDB
 - 2003, [The History of Histograms](http://www.madgik.di.uoa.gr/sites/default/files/vldb03_pp19-30.pdf), VLDB
 - 2005, [An Improved Data Stream Summary: The Count-Min Sketch and its Applications](http://dimacs.rutgers.edu/~graham/pubs/papers/cm-full.pdf), Journal of Algorithms
 - 2007, [New Estimation Algorithms for Streaming Data: Count-min Can Do More](http://webdocs.cs.ualberta.ca/~drafiei/papers/cmm.pdf)
+- 2009, [Preventing Bad Plans by Bounding the Impact of Cardinality Estimation Errors](https://dl.acm.org/doi/pdf/10.14778/1687627.1687738), VLDB
+- 2010, [Histograms Reloaded: The Merits of Bucket Diversity](https://dl.acm.org/doi/pdf/10.1145/1807167.1807239), SIGMOD
+- 2014, [Exploiting Ordered Dictionaries to Efficiently Construct Histograms with Q-Error Guarantees in SAP HANA](https://dl.acm.org/doi/pdf/10.1145/2588555.2595629), SIGMOD
 - 2017, [Adaptive Statistics in Oracle 12c](http://www.vldb.org/pvldb/vol10/p1813-zait.pdf), VLDB
+- 2019, [Pessimistic Cardinality Estimation: Tighter Upper Bounds for Intermediate Join Cardinalities](https://dl.acm.org/doi/pdf/10.1145/3299869.3319894), SIGMOD
 
 Books:
 - [Synopses for Massive Data: Samples, Histograms, Wavelets, Sketches](https://db.cs.berkeley.edu/cs286/papers/synopses-fntdb2012.pdf)
