@@ -234,6 +234,12 @@ Blogs:
 - [Fibonacci Hashing: The Optimization that the World Forgot (or: a Better Alternative to Integer Modulo)](https://probablydance.com/2018/06/16/fibonacci-hashing-the-optimization-that-the-world-forgot-or-a-better-alternative-to-integer-modulo/), thanks to [Malte Skarupke](https://probablydance.com/)
 - [All hash table sizes you will ever need](https://databasearchitects.blogspot.com/2020/01/all-hash-table-sizes-you-will-ever-need.html), thanks to [Database Architects - Thomas Neumann](https://databasearchitects.blogspot.com/)
 
+### Bloom Filter
+
+Papers:
+- 2018, [SuRF: Practical Range Query Filtering with Fast Succinct Tries](https://www.cs.cmu.edu/~pavlo/papers/mod601-zhangA-hm.pdf), SIGMOD
+
+
 ## DDL
 
 - 2013, [Online, Asynchronous Schema Change in F1](https://research.google.com/pubs/archive/41376.pdf), VLDB
