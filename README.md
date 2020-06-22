@@ -374,6 +374,7 @@ Blogs:
 Papers:
 
 - 2012, [Consistency Tradeoffs in Modern Distributed Database System Design](http://www.cs.umd.edu/~abadi/papers/abadi-pacelc.pdf)
+- 2020, [Strong and Efficient Consistency with Consistency-Aware Durability ](http://pages.cs.wisc.edu/~ag/cad.pdf), FAST 2020
 
 ## Consensus
 
@@ -384,7 +385,6 @@ Technical report:
 Papers:
 
 - 2014, [Ark: A Real-World Consensus Implementation](https://arxiv.org/pdf/1407.4765.pdf), CoRR
-- 2020, [Strong and Efficient Consistency with Consistency-Aware Durability ](http://pages.cs.wisc.edu/~ag/cad.pdf), FAST 2020
 
 ## Scale & Balance
 
