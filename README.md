@@ -249,6 +249,7 @@ Blogs:
 Papers:
 
 - 1995, [A Critique of ANSI SQL Isolation Levels](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-95-51.pdf), SIGMOD
+- 2000, [Generalized Isolation Level Definitions](http://pmg.csail.mit.edu/papers/icde00.pdf), Proceedings of 16th International Conference on Data Engineering 
 
 ### Concurrency Control
 
