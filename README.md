@@ -334,6 +334,15 @@ Papers:
 - 1996, [The Log-Structured Merge-Tree (LSM-Tree)](https://www.cs.umb.edu/~poneil/lsmtree.pdf),
 - 2017, [WiscKey: Separating Keys from Values in SSD-conscious Storage](https://www.usenix.org/system/files/conference/fast16/fast16-papers-lu.pdf), TOS
 
+### Learned Indexes Strucrure
+
+Papers:
+
+- 2018, [The Case for Learned Index Structures](https://www.cl.cam.ac.uk/~ey204/teaching/ACS/R244_2018_2019/papers/Kraska_SIGMOD_2018.pdf)
+- 2019, [Learning Multi-dimensional Indexes](https://arxiv.org/pdf/1912.01668.pdf)
+- 2020, [XIndex: A Scalable Learned Index for Multicore Data Storage](https://dl.acm.org/doi/pdf/10.1145/3332466.3374547)
+
+
 ## Serializing & RPC
 
 - [Protocol Buffers Developer Guide](https://developers.google.com/protocol-buffers/docs/overview)
