@@ -70,6 +70,7 @@ Please submit a pull request if there is any material that you think should be i
 - [Database Design and Implementation: Second Edition (Data-Centric Systems and Applications)](https://www.amazon.com/dp/3030338355)
 - [Principles of Distributed Database Systems, 4th ed](https://www.amazon.com/dp/3030262529)
 - [Inside SQLite](https://books.google.com/books/about/Inside_SQLite.html?id=QoxUx8GOjKMC)
+- [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
 
 ### Talks
 
@@ -79,6 +80,7 @@ Please submit a pull request if there is any material that you think should be i
 ### Blogs
 
 - [How does a relational database work](http://coding-geek.com/how-databases-work)
+- [The Internals of PostgreSQL](http://www.interdb.jp/pg/index.html)
 
 ## SQL & Relation Algebra
 
