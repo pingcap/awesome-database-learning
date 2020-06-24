@@ -80,6 +80,7 @@ Please submit a pull request if there is any material that you think should be i
 ### Blogs
 
 - [How does a relational database work](http://coding-geek.com/how-databases-work)
+- [The Internals of PostgreSQL](http://www.interdb.jp/pg/index.html)
 
 ## SQL & Relation Algebra
 
