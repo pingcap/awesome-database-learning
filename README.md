@@ -31,6 +31,7 @@ Please submit a pull request if there is any material that you think should be i
     * [Vectorization vs Compilization](#vectorization-vs-compilization)
     * [Join](#join)
     * [Hash Table](#hash-table)
+    * [Bloom Filter](#bloom-filter)
 * [DDL](#ddl)
 * [Transaction](#transaction)
     * [Isolation Levels](#isolation-levels)
@@ -41,11 +42,12 @@ Please submit a pull request if there is any material that you think should be i
     * [Disk IO](#disk-io)
     * [B-Tree](#b-tree)
     * [LSM-Tree](#lsm-tree)
+    * [Learned Indexes Strucrure](#learned-indexes-strucrure)
 * [Serializing & RPC](#serializing--rpc)
 * [Data Partitioning](#data-partitioning)
 * [Replication & Consistency](#replication--consistency)
 * [Consensus](#consensus)
-* [Scale & Balance](#scale--balance)
+* [Scheduling](#scheduling)
 * [Benchmark & Testing](#benchmark--testing)
 
 <!-- vim-markdown-toc -->
@@ -257,7 +259,7 @@ Blogs:
 Papers:
 
 - 1995, [A Critique of ANSI SQL Isolation Levels](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-95-51.pdf), SIGMOD
-- 2000, [Generalized Isolation Level Definitions](http://pmg.csail.mit.edu/papers/icde00.pdf), Proceedings of 16th International Conference on Data Engineering 
+- 2000, [Generalized Isolation Level Definitions](http://pmg.csail.mit.edu/papers/icde00.pdf), Proceedings of 16th International Conference on Data Engineering
 
 ### Concurrency Control
 
@@ -388,11 +390,15 @@ Papers:
 
 - 2014, [Ark: A Real-World Consensus Implementation](https://arxiv.org/pdf/1407.4765.pdf), CoRR
 
-## Scale & Balance
+## Scheduling
 
 Blogs:
 
 - [Building a Large-scale Distributed Storage System Based on Raft](https://www.cncf.io/blog/2019/11/04/building-a-large-scale-distributed-storage-system-based-on-raft/), by Ed Huang
+
+Papers:
+
+- 2019, [Autoscaling Tiered Cloud Storage in Anna](https://dl.acm.org/doi/pdf/10.14778/3311880.3311881), VLDB
 
 ## Benchmark & Testing
 
