@@ -99,6 +99,12 @@ Courses:
 
 ## Query Optimizer
 
+Courses:
+
+- CMU [Database Systems (15-445/645)](https://15445.courses.cs.cmu.edu/fall2019/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
+    - [Query Planning & Optimization I](https://15445.courses.cs.cmu.edu/fall2019/schedule.html#oct-14-2019)
+    - [Query Planning & Optimization II](https://15445.courses.cs.cmu.edu/fall2019/schedule.html#oct-21-2019)
+
 Blogs:
 
 - [数据库内核杂谈](https://www.infoq.cn/theme/46), thanks to [顾仲贤](https://www.infoq.cn/profile/1780661/publish)
@@ -197,6 +203,12 @@ Books:
 - [Synopses for Massive Data: Samples, Histograms, Wavelets, Sketches](https://db.cs.berkeley.edu/cs286/papers/synopses-fntdb2012.pdf)
 
 ## Query Execution
+
+Courses:
+
+- CMU [Database Systems (15-445/645)](https://15445.courses.cs.cmu.edu/fall2019/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
+    - [Query Execution I](https://15445.courses.cs.cmu.edu/fall2019/schedule.html#oct-07-2019)
+    - [Query Execution II](https://15445.courses.cs.cmu.edu/fall2019/schedule.html#oct-09-2019)
 
 ### Execution Framework
 
@@ -329,6 +341,10 @@ Papers:
 ### B-Tree
 
 Courses:
+
+- CMU [Database Systems (15-445/645)](https://15445.courses.cs.cmu.edu/fall2019/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
+    - [Trees Indexes I](https://15445.courses.cs.cmu.edu/fall2019/schedule.html#sep-18-2019)
+    - [Trees Indexes II](https://15445.courses.cs.cmu.edu/fall2019/schedule.html#sep-23-2019)
 
 - CMU [Advanced Database Systems (15-721)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
     - [OLTP Indexes (B+Tree Data Structures)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html#feb-03-2020)
