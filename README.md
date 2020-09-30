@@ -17,6 +17,7 @@ Please submit a pull request if there is any material that you think should be i
     * [Courses](#courses)
     * [Books](#books)
     * [Talks](#talks)
+    * [Blogs](#blogs)
 * [SQL & Relation Algebra](#sql--relation-algebra)
 * [Query Optimizer](#query-optimizer)
     * [Planner Models](#planner-models)
@@ -30,6 +31,7 @@ Please submit a pull request if there is any material that you think should be i
     * [Vectorization vs Compilization](#vectorization-vs-compilization)
     * [Join](#join)
     * [Hash Table](#hash-table)
+    * [Bloom Filter](#bloom-filter)
 * [DDL](#ddl)
 * [Transaction](#transaction)
     * [Isolation Levels](#isolation-levels)
@@ -40,11 +42,12 @@ Please submit a pull request if there is any material that you think should be i
     * [Disk IO](#disk-io)
     * [B-Tree](#b-tree)
     * [LSM-Tree](#lsm-tree)
+    * [Learned Indexes Strucrure](#learned-indexes-strucrure)
 * [Serializing & RPC](#serializing--rpc)
 * [Data Partitioning](#data-partitioning)
 * [Replication & Consistency](#replication--consistency)
 * [Consensus](#consensus)
-* [Scale & Balance](#scale--balance)
+* [Scheduling](#scheduling)
 * [Benchmark & Testing](#benchmark--testing)
 
 <!-- vim-markdown-toc -->
@@ -69,11 +72,17 @@ Please submit a pull request if there is any material that you think should be i
 - [Database Design and Implementation: Second Edition (Data-Centric Systems and Applications)](https://www.amazon.com/dp/3030338355)
 - [Principles of Distributed Database Systems, 4th ed](https://www.amazon.com/dp/3030262529)
 - [Inside SQLite](https://books.google.com/books/about/Inside_SQLite.html?id=QoxUx8GOjKMC)
+- [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
 
 ### Talks
 
 - [Data Structures and Algorithms for Big Databases](https://people.csail.mit.edu/bradley/BenderKuszmaul-tutorial-xldb12.pdf)
 - [A Journey From A Quick HackTo A High-Reliability Database Engine](https://www.sqlite.org/talks/wroclaw-20090310.pdf)
+
+### Blogs
+
+- [How does a relational database work](http://coding-geek.com/how-databases-work)
+- [The Internals of PostgreSQL](http://www.interdb.jp/pg/index.html)
 
 ## SQL & Relation Algebra
 
@@ -167,10 +176,22 @@ Papers:
 
 Papers:
 
+- 1984, [Accurate Estimation of the Number of Tuples Satisfying a Condition](https://dl.acm.org/doi/pdf/10.1145/971697.602294), SIGMOD
+- 1993, [Optimal Histograms for Limiting Worst-Case Error Propagation in the Size of Join Results](https://dl.acm.org/doi/pdf/10.1145/169725.169708), ACM Trans. on Database Systems
+- 1993, [Universality of Serial Histograms](https://pdfs.semanticscholar.org/deeb/d2fa377a41de49e5556ea948191a741faa1e.pdf), VLDB
+- 1995, [Balancing Histogram Optimality and Practicality for Query Result Size Estimation](https://dl.acm.org/doi/pdf/10.1145/223784.223841), SIGMOD
+- 1996, [Improved Histograms for Selectivity Estimation of Range Predicates](https://dl.acm.org/doi/pdf/10.1145/233269.233342), SIGMOD
+- 1997, [SEEKing the truth about ad hoc join costs](https://dl.acm.org/doi/pdf/10.1007/s007780050043?download=true), VLDB
+- 2000, [Towards Estimation Error Guarantees for Distinct Values](https://dl.acm.org/doi/pdf/10.1145/335168.335230), SIGMOD/PODS
+- 2001, [Distinct Sampling for Highly-Accurate Answers to Distinct Values Queries and Event Reports](http://vldb.org/conf/2001/P541.pdf), VLDB
 - 2003, [The History of Histograms](http://www.madgik.di.uoa.gr/sites/default/files/vldb03_pp19-30.pdf), VLDB
 - 2005, [An Improved Data Stream Summary: The Count-Min Sketch and its Applications](http://dimacs.rutgers.edu/~graham/pubs/papers/cm-full.pdf), Journal of Algorithms
 - 2007, [New Estimation Algorithms for Streaming Data: Count-min Can Do More](http://webdocs.cs.ualberta.ca/~drafiei/papers/cmm.pdf)
+- 2009, [Preventing Bad Plans by Bounding the Impact of Cardinality Estimation Errors](https://dl.acm.org/doi/pdf/10.14778/1687627.1687738), VLDB
+- 2010, [Histograms Reloaded: The Merits of Bucket Diversity](https://dl.acm.org/doi/pdf/10.1145/1807167.1807239), SIGMOD
+- 2014, [Exploiting Ordered Dictionaries to Efficiently Construct Histograms with Q-Error Guarantees in SAP HANA](https://dl.acm.org/doi/pdf/10.1145/2588555.2595629), SIGMOD
 - 2017, [Adaptive Statistics in Oracle 12c](http://www.vldb.org/pvldb/vol10/p1813-zait.pdf), VLDB
+- 2019, [Pessimistic Cardinality Estimation: Tighter Upper Bounds for Intermediate Join Cardinalities](https://dl.acm.org/doi/pdf/10.1145/3299869.3319894), SIGMOD
 
 Books:
 - [Synopses for Massive Data: Samples, Histograms, Wavelets, Sketches](https://db.cs.berkeley.edu/cs286/papers/synopses-fntdb2012.pdf)
@@ -217,6 +238,12 @@ Blogs:
 - [Fibonacci Hashing: The Optimization that the World Forgot (or: a Better Alternative to Integer Modulo)](https://probablydance.com/2018/06/16/fibonacci-hashing-the-optimization-that-the-world-forgot-or-a-better-alternative-to-integer-modulo/), thanks to [Malte Skarupke](https://probablydance.com/)
 - [All hash table sizes you will ever need](https://databasearchitects.blogspot.com/2020/01/all-hash-table-sizes-you-will-ever-need.html), thanks to [Database Architects - Thomas Neumann](https://databasearchitects.blogspot.com/)
 
+### Bloom Filter
+
+Papers:
+- 2018, [SuRF: Practical Range Query Filtering with Fast Succinct Tries](https://www.cs.cmu.edu/~pavlo/papers/mod601-zhangA-hm.pdf), SIGMOD
+
+
 ## DDL
 
 - 2013, [Online, Asynchronous Schema Change in F1](https://research.google.com/pubs/archive/41376.pdf), VLDB
@@ -232,6 +259,7 @@ Blogs:
 Papers:
 
 - 1995, [A Critique of ANSI SQL Isolation Levels](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-95-51.pdf), SIGMOD
+- 2000, [Generalized Isolation Level Definitions](http://pmg.csail.mit.edu/papers/icde00.pdf), Proceedings of 16th International Conference on Data Engineering
 
 ### Concurrency Control
 
@@ -316,6 +344,15 @@ Papers:
 - 1996, [The Log-Structured Merge-Tree (LSM-Tree)](https://www.cs.umb.edu/~poneil/lsmtree.pdf),
 - 2017, [WiscKey: Separating Keys from Values in SSD-conscious Storage](https://www.usenix.org/system/files/conference/fast16/fast16-papers-lu.pdf), TOS
 
+### Learned Indexes Strucrure
+
+Papers:
+
+- 2018, [The Case for Learned Index Structures](https://www.cl.cam.ac.uk/~ey204/teaching/ACS/R244_2018_2019/papers/Kraska_SIGMOD_2018.pdf)
+- 2019, [Learning Multi-dimensional Indexes](https://arxiv.org/pdf/1912.01668.pdf)
+- 2020, [XIndex: A Scalable Learned Index for Multicore Data Storage](https://dl.acm.org/doi/pdf/10.1145/3332466.3374547)
+
+
 ## Serializing & RPC
 
 - [Protocol Buffers Developer Guide](https://developers.google.com/protocol-buffers/docs/overview)
@@ -341,6 +378,7 @@ Blogs:
 Papers:
 
 - 2012, [Consistency Tradeoffs in Modern Distributed Database System Design](http://www.cs.umd.edu/~abadi/papers/abadi-pacelc.pdf)
+- 2020, [Strong and Efficient Consistency with Consistency-Aware Durability ](http://pages.cs.wisc.edu/~ag/cad.pdf), FAST 2020
 
 ## Consensus
 
@@ -352,11 +390,17 @@ Papers:
 
 - 2014, [Ark: A Real-World Consensus Implementation](https://arxiv.org/pdf/1407.4765.pdf), CoRR
 
-## Scale & Balance
+## Scheduling
 
 Blogs:
 
 - [Building a Large-scale Distributed Storage System Based on Raft](https://www.cncf.io/blog/2019/11/04/building-a-large-scale-distributed-storage-system-based-on-raft/), by Ed Huang
+
+Papers:
+
+- 2016, [Automated Demand-driven Resource Scaling in Relational Database-as-a-Service](http://www.audentia-gestion.fr/MICROSOFT/p883-das.pdf), SIGMOD
+- 2019, [Autoscaling Tiered Cloud Storage in Anna](https://dl.acm.org/doi/pdf/10.14778/3311880.3311881), VLDB
+- 2020, [Adaptive HTAP through Elastic Resource Scheduling](https://dl.acm.org/doi/pdf/10.1145/3318464.3389783), SIGMOD
 
 ## Benchmark & Testing
 
