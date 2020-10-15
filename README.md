@@ -42,7 +42,7 @@ Please submit a pull request if there is any material that you think should be i
     * [Disk IO](#disk-io)
     * [B-Tree](#b-tree)
     * [LSM-Tree](#lsm-tree)
-    * [Learned Indexes Strucrure](#learned-indexes-strucrure)
+    * [Learned Indexes Structures](#learned-indexes-structures)
 * [Serializing & RPC](#serializing--rpc)
 * [Data Partitioning](#data-partitioning)
 * [Replication & Consistency](#replication--consistency)
