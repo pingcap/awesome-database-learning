@@ -49,6 +49,7 @@ Please submit a pull request if there is any material that you think should be i
 * [Consensus](#consensus)
 * [Scheduling](#scheduling)
 * [Benchmark & Testing](#benchmark--testing)
+* [HTAP](#htap)
 
 <!-- vim-markdown-toc -->
 
@@ -198,6 +199,8 @@ Papers:
 - 2014, [Exploiting Ordered Dictionaries to Efficiently Construct Histograms with Q-Error Guarantees in SAP HANA](https://dl.acm.org/doi/pdf/10.1145/2588555.2595629), SIGMOD
 - 2017, [Adaptive Statistics in Oracle 12c](http://www.vldb.org/pvldb/vol10/p1813-zait.pdf), VLDB
 - 2019, [Pessimistic Cardinality Estimation: Tighter Upper Bounds for Intermediate Join Cardinalities](https://dl.acm.org/doi/pdf/10.1145/3299869.3319894), SIGMOD
+- 2019, [Deep Unsupervised Cardinality Estimation](http://www.vldb.org/pvldb/vol13/p279-yang.pdf), VLDB
+- 2020, [NeuroCard: One Cardinality Estimator for All Tables](https://vldb.org/pvldb/vol14/p61-yang.pdf), VLDB
 
 Books:
 - [Synopses for Massive Data: Samples, Histograms, Wavelets, Sketches](https://db.cs.berkeley.edu/cs286/papers/synopses-fntdb2012.pdf)
@@ -427,3 +430,10 @@ Blogs:
 - [Use go-ycsb to benchmark different databases (1)](https://medium.com/@siddontang/use-go-ycsb-to-benchmark-different-databases-8850f6edb3a7), thanks to [siddontang](https://medium.com/@siddontang)
 - [Chaos Tools and Techniques for Testing the TiDB Distributed NewSQL Database](https://dzone.com/articles/chaos-tools-and-techniques-for-testing-the-tidb-di-1), thanks to [Liu Tang](https://dzone.com/users/3186309/siddontang.html)
 - [Creating Custom Sysbench Scripts](https://www.percona.com/blog/2019/04/25/creating-custom-sysbench-scripts/), thanks to [Matthew Boehm](https://www.percona.com/blog/author/matthew-boehm/)
+
+## HTAP
+
+Papers:
+
+- 2020, [TiDB: A Raft-based HTAP Database](http://www.vldb.org/pvldb/vol13/p3072-huang.pdf), VLDB
+- 2020, [F1 Lightning: HTAP as a Service](http://www.vldb.org/pvldb/vol13/p3313-yang.pdf), VLDB
