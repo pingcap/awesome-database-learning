@@ -369,6 +369,7 @@ Papers:
 - 2020, [XIndex: A Scalable Learned Index for Multicore Data Storage](https://dl.acm.org/doi/pdf/10.1145/3332466.3374547)
 - 2020, [RadixSpline: A Single-Pass Learned Index](https://dl.acm.org/doi/10.1145/3401071.3401659), [Source Code](https://github.com/learnedsystems/RadixSpline), aiDM@SIGMOD
 - 2020, [The PGM-index: a fully-dynamic compressed learned index with provable worst-case bounds](http://www.vldb.org/pvldb/vol13/p1162-ferragina.pdf), [Source Code](https://github.com/gvinciguerra/PGM-index), VLDB
+- 2020, [From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees](http://pages.cs.wisc.edu/~yifann/bourbon-osdi20.pdf)
 
 ## Serializing & RPC
 
