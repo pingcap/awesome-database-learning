@@ -294,7 +294,15 @@ Courses:
 
 Papers:
 
+- 1976, [The Notions of Consistency and Predicate Locks in a Database System](http://jimgray.azurewebsites.net/papers/on%20the%20notions%20of%20consistency%20and%20predicate%20locks%20in%20a%20database%20system%20cacm.pdf), Communications of the ACM
+- 1981, [Concurrency Control in Distributed Database Systems](https://people.eecs.berkeley.edu/~brewer/cs262/concurrency-distributed-databases.pdf), ACM Computing Surveys
+- 1981, [On Optimistic Methods for Concurrency Control](https://www.eecs.harvard.edu/~htk/publication/1981-tods-kung-robinson.pdf), ACM Transactions on Database Systems
+- 1983, [Multiversion Concurrency Control - Theory and Algorithms](https://sites.fas.harvard.edu/~cs265/papers/bernstein-1983.pdf), ACM Transactions on Database Systems
 - 2012, [Serializable Snapshot Isolation in PostgreSQL](http://www.vldb.org/pvldb/vol4/p783-jung.pdf), VLDB
+- 2012, [Calvin: Fast Distributed Transactions for Partitioned Database Systems](http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf), SIGMOD
+- 2014, [MaaT: effective and scalable coordination of distributed transactions in the cloud](http://www.nawab.me/Uploads/MaaT_VLDB2014.pdf), VLDB
+- 2014, [Staring into the Abyss: An Evaluation of Concurrency Control with One Thousand Cores](http://www.vldb.org/pvldb/vol8/p209-yu.pdf), VLDB
+- 2014, [An Evaluation of the Advantages and Disadvantages of Deterministic Database Systems](http://www.vldb.org/pvldb/vol7/p821-ren.pdf), VLDB
 - 2015, [Fast Serializable Multi-Version Concurrency Control for Main-Memory Database Systems](https://db.in.tum.de/~muehlbau/papers/mvcc.pdf), SIGMOD
 - 2017, [An Empirical Evaluation of In-Memory Multi-Version Concurrency Control](http://www.vldb.org/pvldb/vol10/p781-Wu.pdf), VLDB
 - 2019, [Scalable Garbage Collection for In-Memory MVCC Systems](https://db.in.tum.de/~boettcher/p128-boettcher.pdf), VLDB
