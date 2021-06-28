@@ -458,6 +458,11 @@ Blogs:
 - [Chaos Tools and Techniques for Testing the TiDB Distributed NewSQL Database](https://dzone.com/articles/chaos-tools-and-techniques-for-testing-the-tidb-di-1), thanks to [Liu Tang](https://dzone.com/users/3186309/siddontang.html)
 - [Creating Custom Sysbench Scripts](https://www.percona.com/blog/2019/04/25/creating-custom-sysbench-scripts/), thanks to [Matthew Boehm](https://www.percona.com/blog/author/matthew-boehm/)
 
+
+Papers:
+
+- 2010, [Benchmarking Cloud Serving Systems with YCSB](https://courses.cs.duke.edu/fall13/compsci590.4/838-CloudPapers/ycsb.pdf), SOCC
+
 ## HTAP
 
 Papers:
