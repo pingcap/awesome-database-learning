@@ -82,6 +82,7 @@ Please submit a pull request if there is any material that you think should be i
 - [Principles of Distributed Database Systems, 4th ed](https://www.amazon.com/dp/3030262529)
 - [Inside SQLite](https://books.google.com/books/about/Inside_SQLite.html?id=QoxUx8GOjKMC)
 - [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
+- [Relational Database Index Design and the Optimizers](https://www.amazon.com/Relational-Optimizers-Lahdenmaki-published-Wiley-Blackwell/dp/B00EKYLFSI)
 
 ### Talks
 
