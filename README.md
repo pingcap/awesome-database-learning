@@ -33,6 +33,12 @@ Please submit a pull request if there is any material that you think should be i
     * [Hash Table](#hash-table)
     * [Bloom Filter](#bloom-filter)
 * [DDL](#ddl)
+* [Relational Model](#relational-model)
+    * [Codd's Rules](codd's-rules)
+    * [Relational Data Model](relational-data-model)
+    * [Relational Algebra](relational-algebra)
+    * [ER to Relational Model](er-to-realtional-model)
+    * [SQL - Overview](sql---overview)
 * [Transaction](#transaction)
     * [Isolation Levels](#isolation-levels)
     * [Concurrency Control](#concurrency-control)
@@ -266,6 +272,43 @@ Papers:
 
 - 2013, [Online, Asynchronous Schema Change in F1](https://research.google.com/pubs/archive/41376.pdf), VLDB
 
+## Relational Model
+
+Blogs: 
+
+- [What is a Relational Database?](https://www.calebcurry.com/what-is-a-relational-database/), thanks to [Caleb Curry](https://www.calebcurry.com/author/calebcurry_rlrc3d/)
+- [What is a Relational Database?](https://careerkarma.com/blog/relational-database/),thank to [JAMES GALLAGHER](https://careerkarma.com/blog/author/jamesgallagher/)
+
+### Codd's Rules
+
+Blogs:
+
+- [Codd’s Rules for Relational Database Systems](https://www.oreilly.com/library/view/sql-in-a/9780596155322/ch01s01s01.html), thanks to [Kevin Kline](https://en.wikipedia.org/wiki/Kevin_Kline)
+
+### Relational Data Model
+
+Blogs:
+
+- [Relational model](https://en.wikipedia.org/wiki/Relational_model), thanks to [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia)
+
+### Relational Algebra
+
+Blogs:
+
+- [Introduction of Relational Algebra in DBMS](https://www.geeksforgeeks.org/introduction-of-relational-algebra-in-dbms/#:~:text=Relational%20Algebra%20is%20procedural%20query,column%20data%20from%20a%20relation.), thanks to [GeeksforGeeks](https://www.linkedin.com/company/geeksforgeeks?originalSubdomain=in)
+
+### ER to Relational Model
+
+Blogs:
+
+- [ER Model to Relational Model](https://www.tutorialspoint.com/dbms/er_model_to_relational_model.htm), thanks to [tutorialspoint](https://www.tutorialspoint.com/index.htm1)
+
+### SQL - Overview
+
+Blogs:
+
+- [An Overview of SQL Text Functions](https://learnsql.com/blog/), thanks to [Zahin Rahman](https://learnsql.com/authors/zahin-rahman/)
+
 ## Transaction
 
 ### Isolation Levels
@@ -389,6 +432,7 @@ Papers:
 
 - 1996, [The Log-Structured Merge-Tree (LSM-Tree)](https://www.cs.umb.edu/~poneil/lsmtree.pdf),
 - 2017, [WiscKey: Separating Keys from Values in SSD-conscious Storage](https://www.usenix.org/system/files/conference/fast16/fast16-papers-lu.pdf), TOS
+- 2019, [LSM-based Storage Techniques: A Survey](https://arxiv.org/pdf/1812.07527.pdf)
 
 ### Learned Indexes Structures
 
