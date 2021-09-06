@@ -519,3 +519,8 @@ Papers:
 
 - 2020, [TiDB: A Raft-based HTAP Database](http://www.vldb.org/pvldb/vol13/p3072-huang.pdf), VLDB
 - 2020, [F1 Lightning: HTAP as a Service](http://www.vldb.org/pvldb/vol13/p3313-yang.pdf), VLDB
+
+## TLA+
+
+Talks:
+- [The TLA+ Video Course](http://lamport.azurewebsites.net/video/videos.html)
