@@ -34,11 +34,11 @@ Please submit a pull request if there is any material that you think should be i
     * [Bloom Filter](#bloom-filter)
 * [DDL](#ddl)
 * [Relational Model](#relational-model)
-    * [Codd's Rules](codd's-rules)
-    * [Relational Data Model](relational-data-model)
-    * [Relational Algebra](relational-algebra)
-    * [ER to Relational Model](er-to-realtional-model)
-    * [SQL - Overview](sql---overview)
+    * [Codd's Rules](#codds-rules)
+    * [Relational Data Model](#relational-data-model)
+    * [Relational Algebra](#relational-algebra)
+    * [ER to Relational Model](#er-to-relational-model)
+    * [SQL - Overview](#sql---overview)
 * [Transaction](#transaction)
     * [Isolation Levels](#isolation-levels)
     * [Concurrency Control](#concurrency-control)
@@ -57,6 +57,7 @@ Please submit a pull request if there is any material that you think should be i
 * [Scheduling](#scheduling)
 * [Benchmark & Testing](#benchmark--testing)
 * [HTAP](#htap)
+* [TLA+](#tla)
 
 <!-- vim-markdown-toc -->
 
