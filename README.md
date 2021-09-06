@@ -93,6 +93,7 @@ Please submit a pull request if there is any material that you think should be i
 
 - [How does a relational database work](http://coding-geek.com/how-databases-work)
 - [The Internals of PostgreSQL](http://www.interdb.jp/pg/index.html)
+- [Books propose](https://cakebytheoceanluo.github.io/2020/03/10/books/)
 
 ## SQL & Relation Algebra
 
