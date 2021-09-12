@@ -34,11 +34,11 @@ Please submit a pull request if there is any material that you think should be i
     * [Bloom Filter](#bloom-filter)
 * [DDL](#ddl)
 * [Relational Model](#relational-model)
-    * [Codd's Rules](codd's-rules)
-    * [Relational Data Model](relational-data-model)
-    * [Relational Algebra](relational-algebra)
-    * [ER to Relational Model](er-to-realtional-model)
-    * [SQL - Overview](sql---overview)
+    * [Codd's Rules](#codds-rules)
+    * [Relational Data Model](#relational-data-model)
+    * [Relational Algebra](#relational-algebra)
+    * [ER to Relational Model](#er-to-relational-model)
+    * [SQL - Overview](#sql---overview)
 * [Transaction](#transaction)
     * [Isolation Levels](#isolation-levels)
     * [Concurrency Control](#concurrency-control)
@@ -57,6 +57,7 @@ Please submit a pull request if there is any material that you think should be i
 * [Scheduling](#scheduling)
 * [Benchmark & Testing](#benchmark--testing)
 * [HTAP](#htap)
+* [TLA+](#tla)
 
 <!-- vim-markdown-toc -->
 
@@ -83,6 +84,7 @@ Please submit a pull request if there is any material that you think should be i
 - [Inside SQLite](https://books.google.com/books/about/Inside_SQLite.html?id=QoxUx8GOjKMC)
 - [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
 - [Relational Database Index Design and the Optimizers](https://www.amazon.com/Relational-Optimizers-Lahdenmaki-published-Wiley-Blackwell/dp/B00EKYLFSI)
+- [Transactional Information Systems: Theory, Algorithms, and the Practice of Concurrency Control](https://www.sciencedirect.com/book/9781558605084/transactional-information-systems)
 
 ### Talks
 
@@ -93,6 +95,7 @@ Please submit a pull request if there is any material that you think should be i
 
 - [How does a relational database work](http://coding-geek.com/how-databases-work)
 - [The Internals of PostgreSQL](http://www.interdb.jp/pg/index.html)
+- [Books propose](https://cakebytheoceanluo.github.io/2020/03/10/books/)
 
 ## SQL & Relation Algebra
 
@@ -519,3 +522,8 @@ Papers:
 
 - 2020, [TiDB: A Raft-based HTAP Database](http://www.vldb.org/pvldb/vol13/p3072-huang.pdf), VLDB
 - 2020, [F1 Lightning: HTAP as a Service](http://www.vldb.org/pvldb/vol13/p3313-yang.pdf), VLDB
+
+## TLA+
+
+Talks:
+- [The TLA+ Video Course](http://lamport.azurewebsites.net/video/videos.html)
