@@ -187,7 +187,7 @@ Papers:
 
 Papers:
 
-- 1996, [Modelling Costs for a MM-DBMS](), in Real-Time Databases
+- 1996, [Modelling Costs for a MM-DBMS](http://www.eng.uci.edu/faculty/klin/rtdb/LM.ps), in Real-Time Databases
 - 2014, [Approximation Schemes for Many-Objective Query Optimization](https://infoscience.epfl.ch/record/219202/files/p1299-trummer.pdf), SIGMOD
 - 2015, [Multi-Objective Parametric Query Optimization](http://www.vldb.org/pvldb/vol8/p221-trummer.pdf), VLDB
 
