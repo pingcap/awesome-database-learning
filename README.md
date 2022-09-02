@@ -294,12 +294,14 @@ Blogs:
 Blogs:
 
 - [Relational model](https://en.wikipedia.org/wiki/Relational_model), thanks to [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia)
+- [Relational Model in DBMS](https://www.scaler.com/topics/dbms/relational-model-in-dbms/), thanks to [Scaler Topics](https://www.scaler.com/topics/)
 
 ### Relational Algebra
 
 Blogs:
 
 - [Introduction of Relational Algebra in DBMS](https://www.geeksforgeeks.org/introduction-of-relational-algebra-in-dbms/#:~:text=Relational%20Algebra%20is%20procedural%20query,column%20data%20from%20a%20relation.), thanks to [GeeksforGeeks](https://www.linkedin.com/company/geeksforgeeks?originalSubdomain=in)
+- [Relational Algebra in DBMS](https://www.scaler.com/topics/dbms/relational-algebra-in-dbms/), thanks to [Scaler Topics](https://www.scaler.com/topics/)
 
 ### ER to Relational Model
 
