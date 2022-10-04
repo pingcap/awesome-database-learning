@@ -119,6 +119,8 @@ Courses:
     - [Query Planning & Optimization I](https://15445.courses.cs.cmu.edu/fall2019/schedule.html#oct-14-2019)
     - [Query Planning & Optimization II](https://15445.courses.cs.cmu.edu/fall2019/schedule.html#oct-21-2019)
 
+- TU Munich [Query Optimization](https://db.in.tum.de/teaching/ws2223/queryopt/?lang=en)
+
 Blogs:
 
 - [数据库内核杂谈](https://www.infoq.cn/theme/46), thanks to [顾仲贤](https://www.infoq.cn/profile/1780661/publish)
@@ -340,6 +342,8 @@ Courses:
     - [Multi-Version Concurrency Control (Design Decisions)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html#jan-22-2020)
     - [Multi-Version Concurrency Control (Protocols)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html#jan-27-2020)
     - [Multi-Version Concurrency Control (Garbage Collection)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html#jan-29-2020)
+
+- TU Munich [Transaction Systems](https://db.in.tum.de/teaching/ss22/transactions/?lang=en)
 
 Papers:
 
