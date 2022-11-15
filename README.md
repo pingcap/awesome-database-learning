@@ -463,7 +463,7 @@ Papers:
 
 Blogs:
 
-- [TiDB Internal (I) - Data Storage](https://pingcap.com/blog/2017-07-11-tidbinternal1/)
+- [TiDB Internal (I) - Data Storage](https://www.pingcap.com/blog/tidb-internal-data-storage/)
 - [Partitioning Behavior of DynamoDB](https://dzone.com/articles/partitioning-behavior-of-dynamodb), thanks to [Parth Modi](https://dzone.com/users/3098371/parthmodi.html)
 
 Papers:
