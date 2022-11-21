@@ -98,6 +98,7 @@ Please submit a pull request if there is any material that you think should be i
 - [The Internals of PostgreSQL](http://www.interdb.jp/pg/index.html)
 - [Books propose](https://cakebytheoceanluo.github.io/2020/03/10/books/)
 - [what is database and its types](https://www.scaler.com/topics/dbms/what-is-database/)
+- [SQL for All!](https://freecontent.manning.com/sql-for-all/)
 
 ## SQL & Relation Algebra
 
