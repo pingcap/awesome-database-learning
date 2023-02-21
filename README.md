@@ -302,6 +302,7 @@ Blogs:
 - [Introduction of Relational Algebra in DBMS](https://www.geeksforgeeks.org/introduction-of-relational-algebra-in-dbms/#:~:text=Relational%20Algebra%20is%20procedural%20query,column%20data%20from%20a%20relation.), thanks to [GeeksforGeeks](https://www.linkedin.com/company/geeksforgeeks?originalSubdomain=in)
 
 ### ER to Relational Model
+- [ERD Lab](https://www.erdlab.io/) - Free cloud based entity relationship diagram (ERD) tool made for developers.
 
 Blogs:
 
