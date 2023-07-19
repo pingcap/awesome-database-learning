@@ -309,6 +309,10 @@ Blogs:
 
 ### SQL - Overview
 
+Tutorials: 
+
+- [Interactive SQL tutorials and a sandbox to learn SQL step by step](https://interactivesql.com)
+
 Blogs:
 
 - [An Overview of SQL Text Functions](https://learnsql.com/blog/), thanks to [Zahin Rahman](https://learnsql.com/authors/zahin-rahman/)
