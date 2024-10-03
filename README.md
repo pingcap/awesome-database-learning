@@ -87,6 +87,7 @@ Please submit a pull request if there is any material that you think should be i
 - [Transactional Information Systems: Theory, Algorithms, and the Practice of Concurrency Control](https://www.sciencedirect.com/book/9781558605084/transactional-information-systems)
 - [Learn SQL in a Month of Lunches](https://www.manning.com/books/learn-sql-in-a-month-of-lunches)
 - [ScyllaDB in Action](https://www.manning.com/books/scylladb-in-action)
+- [DuckDB in Action](https://www.manning.com/books/duckdb-in-action)
 
 ### Talks
 
