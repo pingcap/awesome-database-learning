@@ -85,6 +85,9 @@ Please submit a pull request if there is any material that you think should be i
 - [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
 - [Relational Database Index Design and the Optimizers](https://www.amazon.com/Relational-Optimizers-Lahdenmaki-published-Wiley-Blackwell/dp/B00EKYLFSI)
 - [Transactional Information Systems: Theory, Algorithms, and the Practice of Concurrency Control](https://www.sciencedirect.com/book/9781558605084/transactional-information-systems)
+- [Learn SQL in a Month of Lunches](https://www.manning.com/books/learn-sql-in-a-month-of-lunches)
+- [ScyllaDB in Action](https://www.manning.com/books/scylladb-in-action)
+- [DuckDB in Action](https://www.manning.com/books/duckdb-in-action)
 
 ### Talks
 
@@ -97,6 +100,7 @@ Please submit a pull request if there is any material that you think should be i
 - [The Internals of PostgreSQL](http://www.interdb.jp/pg/index.html)
 - [Books propose](https://cakebytheoceanluo.github.io/2020/03/10/books/)
 - [what is database and its types](https://www.scaler.com/topics/dbms/what-is-database/)
+- [SQL for All!](https://freecontent.manning.com/sql-for-all/)
 
 ## SQL & Relation Algebra
 
