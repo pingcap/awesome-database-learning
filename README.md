@@ -85,6 +85,7 @@ Please submit a pull request if there is any material that you think should be i
 - [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
 - [Relational Database Index Design and the Optimizers](https://www.amazon.com/Relational-Optimizers-Lahdenmaki-published-Wiley-Blackwell/dp/B00EKYLFSI)
 - [Transactional Information Systems: Theory, Algorithms, and the Practice of Concurrency Control](https://www.sciencedirect.com/book/9781558605084/transactional-information-systems)
+- [MongoDB in Action, Third Edition](https://www.manning.com/books/mongodb-in-action-third-edition)
 
 ### Talks
 
