@@ -9,6 +9,7 @@ A list of learning materials to understand databases internals, including but no
 
 Please submit a pull request if there is any material that you think should be included in this collection.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for database-backed multi-agent orchestration, automated task registry, and data-driven workflow management. MIT licensed.
 ## Table of Contents
 
 <!-- vim-markdown-toc GFM -->
