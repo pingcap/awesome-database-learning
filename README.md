@@ -9,6 +9,7 @@ A list of learning materials to understand databases internals, including but no
 
 Please submit a pull request if there is any material that you think should be included in this collection.
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=pingcap_awesome-database-learning) - Follow database engineers on GitHub and see what DB tools and ORMs they are checking out.
 ## Table of Contents
 
 <!-- vim-markdown-toc GFM -->
