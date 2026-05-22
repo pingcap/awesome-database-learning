@@ -67,6 +67,7 @@ Please submit a pull request if there is any material that you think should be i
 
 - CMU [Database Systems (15-445/645)](https://15445.courses.cs.cmu.edu/fall2023/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
 - CMU [Advanced Database Systems (15-721)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html), thanks to [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
+- [TutorialSearch](https://tutorialsearch.io/browse/cybersecurity/database-security) - Free cross-platform search engine indexing 50,000+ tutorials from Udemy, Skillshare, Pluralsight, and other major learning platforms across 45+ categories.
 - UC Berkeley [Introduction to Database Systems](https://cs186berkeley.net/calendar/)
 - Stanford [Database System Implementation](https://web.stanford.edu/class/cs346/2015/)
 - Cornell [Introduction to Database Systems](http://www.databaselecture.com/) by Prof. Trummer
