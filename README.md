@@ -97,6 +97,7 @@ Please submit a pull request if there is any material that you think should be i
 - [The Internals of PostgreSQL](http://www.interdb.jp/pg/index.html)
 - [Books propose](https://cakebytheoceanluo.github.io/2020/03/10/books/)
 - [what is database and its types](https://www.scaler.com/topics/dbms/what-is-database/)
+- [Database Internals Notes](https://harut8.github.io/system-design/databases/MENTAL_MODEL/), storage engines, query execution, transactions and locking, B-trees, LSM-trees and WAL, with labs
 
 ## SQL & Relation Algebra
 
