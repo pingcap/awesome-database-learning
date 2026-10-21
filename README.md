@@ -71,6 +71,7 @@ Please submit a pull request if there is any material that you think should be i
 - Stanford [Database System Implementation](https://web.stanford.edu/class/cs346/2015/)
 - Cornell [Introduction to Database Systems](http://www.databaselecture.com/) by Prof. Trummer
 - [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/), thanks to [cstack](https://github.com/cstack)
+- [Database Learning Path](https://aviavni.github.io/database-learning-path/) - 45 topics of guided paper and source-code reading (storage, transactions, query execution, distribution, graphs), with runnable Rust benchmarks that reproduce the measured claims
 
 ### Books
 
