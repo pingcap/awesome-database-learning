@@ -355,7 +355,8 @@ Papers:
 - 2015, [Fast Serializable Multi-Version Concurrency Control for Main-Memory Database Systems](https://db.in.tum.de/~muehlbau/papers/mvcc.pdf), SIGMOD
 - 2017, [An Empirical Evaluation of In-Memory Multi-Version Concurrency Control](http://www.vldb.org/pvldb/vol10/p781-Wu.pdf), VLDB
 - 2017, [An Evaluation of Distributed Concurrency Control](https://www.vldb.org/pvldb/vol10/p553-harding.pdf), VLDB
-- 2019, [Scalable Garbage Collection for In-Memory MVCC Systems](https://db.in.tum.de/~boettcher/p128-boettcher.pdf), VLDB
+  - 2019, [Scalable Garbage Collection for In-Memory MVCC Systems](https://db.in.tum.de/~boettcher/p128-boettcher.pdf), VLDB
+- [Anatomy of a Payment](https://doi.org/10.5281/zenodo.24444210) - CC-BY-4.0 paper and [Apache-2.0 interactive workbench](https://digbijoylabs.github.io/anatomy-of-a-payment/) applying ACID isolation, MVCC, and serializable ledger invariants to payment rails.
 
 ## Network
 
